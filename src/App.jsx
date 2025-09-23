@@ -1,11 +1,14 @@
+
 import './App.css'
-import Header from './components/common/Header'
+import BusStopList from './components/BusStopList.jsx'
+import Header from './components/Header.jsx'
 
 function App() {
 
   return (
     <>
-      <Header />
+      <Header/>
+      <BusStopList/>
     </>
   )
 }
