@@ -15,7 +15,7 @@ const busIndex = createAsyncThunk(
         }
 
         const response = await axios.get(url,config);
-        return response.data.body;
+        return response.data.body.items;
     }
 );
 
