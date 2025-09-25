@@ -1,0 +1,111 @@
+.busdetail-container{
+  
+    width:90%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+
+
+.busdetail-contentBox{
+
+    width:90%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 370px;
+}
+.busdetail-leftBox{
+    width:49px;
+    background-color: #DADEDB;
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    writing-mode: vertical-lr;
+    padding: 20px;
+    position: relative;
+    height: 120px;
+    
+}
+.busdetail-leftBox > p{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    letter-spacing:5px;
+    font-size: 21px;
+    
+    
+}
+
+.busdetail-textwrap{
+    width:100%;
+    height:100%;
+    text-align: left;
+    margin-left: 10%;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+.busdetail-title{
+    font-size: 23px;
+    
+}
+.busdetail-number{
+    font-size: 20px;
+    color:#BCB9B9;
+}
+.busdetail-adress{
+    font-size: 20px;
+}
+
+.busdetail-redBox{
+    background-color: #FFBCBC;
+    width:42px;
+    height:20px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    
+}
+.busdetail-blueBox{
+    background-color: #71B3F2;
+    width:42px;
+    height:20px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.busdetail-color-wrap{
+    display: flex;
+    margin-top: 5px;
+}
+.busdetail-color-wrap>p{
+    margin-left: 10px;
+}
+
+/* 정류장 부분 */
+.busStopwrap{
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.busStpopTextWrap{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.circle{
+    width:10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #BCB9B9;
+}
+.busStpopTextWrap>p{
+    margin-left: 60px;
+} 

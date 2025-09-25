@@ -1,16 +1,17 @@
-
+import Header from './components/Header.jsx';
+import { Outlet } from 'react-router-dom';
 import './App.css'
-import BusStopList from './components/BusStopList.jsx'
-import Header from './components/Header.jsx'
 
 function App() {
 
   return (
     <>
       <Header/>
-      <BusStopList/>
+      <main>
+        <Outlet/>
+      </main>      
     </>
   )
 }
 
-export default App
+export default App;

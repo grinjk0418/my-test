@@ -1,8 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import busStopListReducer from './slices/busStopListSlice.js'
+import busReducer from './slices/busSlice';
+
 
 export default configureStore({
-  reducer: {
-    busStopList: busStopListReducer,
-  }
-});
+    reducer:{
+        bus: busReducer,
+    }
+})

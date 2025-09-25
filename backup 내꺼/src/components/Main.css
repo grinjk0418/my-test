@@ -1,0 +1,41 @@
+.main-btn-box {
+  width: 90vw;
+  height: 222px;
+  background-color: #fff;
+  margin: 30px auto;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: -18px 13px 0px #7AAA89;
+  max-width: 400px;
+  cursor: pointer;
+}
+
+.main-btn-box > p {
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 60%;
+  left:  15%;
+}
+
+.road-img {
+  width: 250px;
+  position: absolute;
+  right: 20%;
+  bottom: -35px;
+}
+
+.busstop-img {
+  width: 130px;
+  position: absolute;
+  right: 20%;
+  bottom: 0px;
+}
+
+.main-bus-img {
+  width: 250px;
+  position: absolute;
+  right: 10%;
+  bottom: 0px;
+}
+

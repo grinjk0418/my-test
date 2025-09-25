@@ -1,6 +1,9 @@
 const axiosConfig = {
-  SERVICE_KEY: '0cbe7f01f9902708643e7690356749c42e0c68af9c1cc652308256a5e50edbbd',
-  BASE_URL: 'https://apis.data.go.kr/6270000/dbmsapi02',
+    serviceKey: '80eaccf4e6e81446e14a522249a8691451b9b72a994fb38bbb61527f0712a53f',
+    baseUrl: 'https://apis.data.go.kr/6270000/dbmsapi02'
+    
 }
+
+
 
 export default axiosConfig;

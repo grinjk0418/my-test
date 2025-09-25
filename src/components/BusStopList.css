@@ -4,7 +4,7 @@
     border-radius: 15px;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin: 10px auto;
 }
 .busstop-leftbox{
     width:49px;
@@ -15,6 +15,7 @@
     padding: 20px;
     position: relative;
     min-height: 100px;
+    
 }
 .busstop-leftbox > p{
     position: relative;

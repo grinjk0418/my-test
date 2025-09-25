@@ -16,3 +16,50 @@ header > p {
     font-weight: bold;
     color : white;
 }
+
+/* 햄버거 버튼 클릭시 보임 */
+.nav{
+    position: fixed;
+    display: flex;
+    left:-300px;
+    top:0;
+    width:100vw;
+    height:100vh;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    
+}
+.nav.show{
+    left:0px;
+    transform: translateX(0%);
+}
+.navbox{
+    width: 70%;
+    height: 100%;
+    background-color: #7AAA89;
+}
+.backbox{
+    width:30%;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+.navLogoImgBox{
+    width:200px;
+    margin: 0 auto;
+}
+.navLogoImgBox>img{
+    width:100%;
+}
+.navTextWrap{
+    width:100px;
+    margin:0 auto;
+    
+}
+.navTextWrap>p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
