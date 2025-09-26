@@ -30,31 +30,16 @@ function BusListDetail() {
                 </div>
                 {/* 정류장 노선 */}
                 <div className="busStopwrap">
-                  {
-                    busList.length > 0 && (<div className="busStpopTextWrap">
+                  { 
+                    busList.length > 0 && busList.map(item => (
+                    <div className="busStpopTextWrap" key={item.seq + item.bsId}>
                         <div className="circle"></div>
-                        <p>{busList[0].bsNm}</p>
+                        <p>{item.bsNm}</p>
                     </div>)
+                    )
                   }
-                    <div className="busStpopTextWrap">
-                        <div className="circle"></div>
-                        <p>정류장</p>
-                    </div>
-                    <div className="busStpopTextWrap">
-                        <div className="circle"></div>
-                        <p>정류장</p>
-                    </div>
-                    <div className="busStpopTextWrap">
-                        <div className="circle"></div>
-                        <p>정류장</p>
-                    </div>
                 </div>
-
             </div>
-
-
-
-
         </>
     )
 }
