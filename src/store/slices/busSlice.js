@@ -4,15 +4,18 @@ import { busIndex } from "../thunks/busThunk";
 const busSlice = createSlice({
   name: 'busSlice',
   initialState: {
-    busList: [],
+    busList: {},
   },
   reducers: {
-
+    setBusListInfo(state, action) {
+      state.busList = action.payload;
+    },
   },
   extraReducers: builder => {
     builder
       .addCase(busIndex.fulfilled, (state, action) => {
-        state.busList = action.payload
+        console.log(action.payload);
+        state.busList = action.payload;
       })
       .addMatcher(
         action => action.type.endsWith('/rejected'),
