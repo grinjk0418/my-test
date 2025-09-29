@@ -8,7 +8,7 @@ function Main() {
         <>
             <Header/>
             <div className="container">
-                <div className="mainButton" onClick={()=>{navigate('/map')}}> 
+                <div className="mainButton" onClick={()=>{navigate('/map-view')}}> 
                     <h1 className="mainTitle">길찾기</h1>
                     <div className="road-imgbox">
                         <img src="/road.png" alt="길 이미지 " />
